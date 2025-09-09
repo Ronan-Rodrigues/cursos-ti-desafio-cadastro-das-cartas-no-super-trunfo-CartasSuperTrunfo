@@ -136,7 +136,7 @@ void exibirResultado(int vencedor, Carta c1, Carta c2, int a1, int a2) {
 }
 
 int main() {
-    system("chcp 65001 > null"); // Configura o console para UTF-8 no Windows
+  //  system("chcp 65001 > null"); // Configura o console para UTF-8 no Windows
     Carta cartas[MAX_CARTAS];
     int totalCartas = 0;
 
